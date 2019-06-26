@@ -1,0 +1,38 @@
+
+
+<header>
+  <div class="container">
+      <div class="row" style="text-align: center" > <h1 *ngIf='user'> Hi,  {{user.userAuthentication.details.name}}</h1>
+      </div>
+    <div class="row">
+      <div class="col-md-10" *ngIf='user'>
+
+                     
+       
+        <!-- <nav>
+          <ul>
+            <li ><a routerLink="/admin" *ngIf="roles.indexOf('Admin') > -1"> Admin</a></li>
+            <li ><a routerLink="/employee" *ngIf="roles.indexOf('Employee') > -1">Employee</a></li>
+          </ul>
+        </nav> -->
+        <!-- <nav mat-tab-nav-bar *ngIf="navLinks?.length">
+            <span *ngFor="let link of navLinks">
+              <a mat-tab-link
+              *ngIf="roles.indexOf(link.label) > -1"
+            [routerLink]="link.link"
+            routerLinkActive #rla="routerLinkActive"
+            [active]="rla.isActive">
+            {{link.label}}
+            </a>
+            </span>
+        </nav> -->
+    </div>
+    
+  </div>
+  </div>
+</header>
+
+
+
+
+ 
